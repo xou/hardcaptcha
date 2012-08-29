@@ -1,0 +1,13 @@
+This is HardCaptcha, an "advanced math" captcha inspired by the captcha at the
+Quantum Random Bit Generator Service registration procedure at
+http://random.irb.hr/signup.php.
+
+A live demo is available at http://bildungsresistenz.de/cgi/hardcaptcha
+
+This currently is more a math trainer than a real captcha (since the output it plain
+LaTeX rendered by the MathJax.js library, which can easily be parsed). It should
+not be used in production, at least not in the current version.
+
+Dependencies: a recent sympy version (tested with 0.6.2)
+Installation: symlink hardcaptcha.cgi to your cgi-bin directory, and edit the paths
+(mathjax library and shelve storage location)
