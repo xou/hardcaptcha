@@ -92,7 +92,7 @@ l = hardcaptcha.getCaptchaList()
 for e in l:
   print "<a href='"+os.environ["SCRIPT_NAME"]+"?module="+e+"'>" + e + "</a><br />"
 print "<a href='"+os.environ["SCRIPT_NAME"]+"'>Random</a>"
-print("</body></html>")
+print("<br /><a href='http://github.com/xou/hardcaptcha'>Fork me on Github</a></body></html>")
 
 sys.stdout.flush()
 removefrom = time() - 60*60*2
